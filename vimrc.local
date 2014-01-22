@@ -1,0 +1,19 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+set number
+set nobackup
+set tabstop=4
+set shiftwidth=4
+
+let g:ctrlp_max_files=25000
+
+call vundle#rc()
+
+Bundle "gmarik/vundle"
+Bundle "ctrlp.vim"
+Bundle "256-jungle"
+
+filetype plugin indent on
+colorscheme 256-jungle
